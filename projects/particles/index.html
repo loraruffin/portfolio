@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>particles Lora Ruffin</title>		
+		<script src="js/three.min.js"></script>
+
+
+		<style>
+			body {
+				background-color: #808080;
+				margin: 0px;
+				overflow: hidden;
+				font-family:Monospace;
+				font-size:13px;
+				text-align:center;
+				font-weight: bold;
+				text-align:center;
+			}
+
+			#mainMenu{
+				background-color: #2a2a2a;
+				height: 44px;
+				font-size: 80%;
+				text-align: center;
+				border:3px solid gray;
+			}
+						
+			#mainMenu ul {
+				list-style: none;				
+				margin: 0 0 0 40%;
+				padding: 5px;
+			}
+            
+			#mainMenu li {
+				float: left;
+				margin: 1% 0 ;
+				padding: 0;
+			}
+            
+		</style>
+	</head>
+	<body onload="init()">
+		<h1 >WebGL Particles </h1>
+		<canvas id="canvas" width="800" height="600" background-color: #808080> 
+		
+		<script src="js/particles.js"></script>
+
+		
+		</canvas>
+			<div id="mainMenu" align="center">
+				<ul>
+					<li><input  type="button" onclick="init(0);" value="butterflies"></li>
+					<li><input  type="button" onclick="init(1);" value="heart"></li>
+					<li><input  type="button" onclick="init(2);" value="particles"></li>
+					<li><input  type="button" onclick="init(3);" value="snowflakes"></li>
+				</ul>
+			<div>
+		
+			
+		<p style="clear: both"></p>
+		<br>
+		<p>Created by Lora Ruffin</p>
+	
+
+		
+	</body>
+</html>

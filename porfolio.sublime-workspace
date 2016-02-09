@@ -1,0 +1,273 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ga",
+				"gameState"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"all",
+				"allEnemies"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"e",
+				"enemy"
+			],
+			[
+				"ba",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>	\n	<meta charset=\"UTF-8\">\n	<meta http-equiv=”X-UA-Compatible” content=”IE=edge”>\n	<meta name=”viewport” content=”width=device-width, initial-scale=1”>\n	<title>Lora Ruffin</title>\n	<link href='https://fonts.googleapis.com/css?family=Lato:200,300' rel='stylesheet' type='text/css'>\n	<link rel=\"stylesheet\" href=\"css/style.css\">\n</head>\n\n\n<body>\n	<header class=\"container\">\n		<div class=\"logo\">\n			<img src=\"images/logo.jpg\" alt=\"logo\">\n		</div>\n		<div class=\"title\">\n			<h1> Lora Ruffin </h1>\n			<h4> Front-End Developer </h4>\n		</div>	\n	</header>\n\n	<article class=\"banner\">\n		<img src=\"http://placekitten.com/960/300\" alt=\"banner\">\n    </article>\n	<main>\n		<h2 class=\"featureWork\">Feature Work</h2>\n		\n		<section class=\"gallery\" >\n\n			<picture class=\"p1\">\n  				<img src=\"http://placehold.it/300x200\"  alt=\"\" >\n  				<h3>Project 1</h3>\n  				<p> http://github.com </p>\n			</picture>\n			<picture class=\"p2\">\n  				<img src=\"http://placehold.it/300x200\"  alt=\"\" >\n  				<h3>Project 2</h3>\n  				<p> http://github.com </p>\n			</picture>\n\n			<picture class=\"p3\">\n  				<img src=\"http://placehold.it/300x200\"  alt=\"\" >\n  				<h3>3D Animation</h3>\n  				<p><a href=\"https://www.youtube.com/watch?v=KLoCe0KJSuk\">https://www.youtube.com</a></p>\n			</picture>\n	\n\n\n		</section>\n	</main>\n</body>\n</html>",
+			"file": "index.html",
+			"file_size": 1393,
+			"file_write_time": 1444336708000000,
+			"settings":
+			{
+				"buffer_size": 1330,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "body {\n\n	font-family: 'Lato', sans-serif;\n	color: #676858;\n	font-weight: 300;\n}\n\nhtml {\n	\n}\n\nh1,h2, h3, h4, p{\n	margin: 0;\n	padding:0;\n}\n\n.container {\n	display: flex;\n	flex-wrap: wrap;\n	border-bottom: 1px solid #676858;\n	margin-bottom: 15px;\n	padding: 10px;\n\n	background-image: #ffffff; /* Old browsers */\n	background-image: -moz-linear-gradient(-45deg,  #ffffff 22%, #ffffff 70%, #871b85 100%); /* FF3.6+ */\n	background-image: -webkit-gradient(linear, left top, right bottom, color-stop(22%,#ffffff), color-stop(70%,#ffffff), color-stop(100%,#871b85)); /* Chrome,Safari4+ */\n	background-image: -webkit-linear-gradient(-45deg,  #ffffff 22%,#ffffff 70%,#871b85 100%); /* Chrome10+,Safari5.1+ */\n	background-image: -o-linear-gradient(-45deg,  #ffffff 22%,#ffffff 70%,#871b85 100%); /* Opera 11.10+ */\n	background-image: -ms-linear-gradient(-45deg,  #ffffff 22%,#ffffff 70%,#871b85 100%); /* IE10+ */\n	background-image: linear-gradient(155deg,  #ffffff 32%,#ffffff 50%,#871b85 100%); /* W3C */\n	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#871b85',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */\n    background-position: right bottom;\n    background-repeat: no-repeat;\n\n}\n\n.logo{\n	width: 100%;\n	order: 1;\n	text-align: center;\n\n}\n\n.logo img {\n	max-width: 125px;\n	max-height: 125px;\n}\n\n.title{\n	width: 100%;\n	order: 2;\n	margin-top: 20px;\n	text-align: center;\n	text-transform: uppercase;\n}\n\n.title h1 {\n	margin: 5px 0;\n	font-weight: 200;\n}\n\n\n.banner img {\n	width: 100%;\n}\n\n.featureWork{\n	margin: 20px 0 10px 0;\n	text-align: center;\n}\n\nmain{\n		background-image: #ffffff; /* Old browsers */\n	background-image: -moz-linear-gradient(-45deg,  #ffffff 22%, #ffffff 70%, #871b85 100%); /* FF3.6+ */\n	background-image: -webkit-gradient(linear, left top, right bottom, color-stop(22%,#ffffff), color-stop(70%,#ffffff), color-stop(100%,#871b85)); /* Chrome,Safari4+ */\n	background-image: -webkit-linear-gradient(-45deg,  #ffffff 22%,#ffffff 70%,#871b85 100%); /* Chrome10+,Safari5.1+ */\n	background-image: -o-linear-gradient(-45deg,  #ffffff 22%,#ffffff 70%,#871b85 100%); /* Opera 11.10+ */\n	background-image: -ms-linear-gradient(-45deg,  #ffffff 22%,#ffffff 70%,#871b85 100%); /* IE10+ */\n	background-image: linear-gradient(195deg,  #ffffff 22%,#ffffff 70%,#871b85 100%); /* W3C */\n	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#871b85',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */\n    background-position: right bottom;\n    background-repeat: no-repeat;\n}\n\n\n.gallery{\n	text-align: center;\n\n}\n\n.gallery img{\n	width: 80%;\n}\n.gallery h3{\n	text-transform: uppercase;\n}\n.gallery p{\n	font-size: 0.8em;\n	margin-bottom: 30px;\n}\n\npicture{\n	margin: 100px 0;\n}\n\npicture + picture + picture{\n	margin-right: 0;\n}\n\n\n@media screen and (min-width:550px){\n	.logo {\n		width: 50%;\n		text-align: left;\n		\n	}\n	.title {\n		width: 50%;\n		text-align: right;\n	\n	}\n\n	.featureWork{\n	margin: 20px 0 ;\n	text-align: left;\n}\n\n	.gallery{\n		display: flex;\n		flex-wrap: wrap;\n	\n	}\n	\n	picture{\n		margin: 0 0 30px 0;\n		width: 50%;\n	\n	}\n\n	.gallery img{\n		width: 80%;\n\n	}\n}\n\n@media screen and (min-width:800px){\n	body{\n		width: 800px;\n		margin: 0 auto;\n	}\n\n	.featureWork{\n	margin: 20px 0 ;\n	text-align: left;\n}\n\n	.gallery{\n		display: flex;\n		flex-wrap: wrap;\n	\n	}\n	\n	picture{\n		margin-right: 16px;\n		width: 32%;\n	\n	}\n\n	.gallery img{\n		width: 100%;\n\n	}\n}\n\n\n",
+			"file": "css/style.css",
+			"file_size": 3609,
+			"file_write_time": 1444340296000000,
+			"settings":
+			{
+				"buffer_size": 3426,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/ruffin/Desktop/frogger/css/style.css",
+		"/Users/ruffin/Desktop/frogger/js/resources.js",
+		"/Users/ruffin/Desktop/frogger/index.html",
+		"/Users/ruffin/Desktop/frogger/js/engine.js",
+		"/Users/ruffin/Desktop/frogger/js/app.js",
+		"/Users/ruffin/Desktop/DragDrop/index.html",
+		"/Users/ruffin/Desktop/portfolio/toplist/style.css",
+		"/Users/ruffin/Desktop/Lynda/CSS_Page_Layout/Exercise Files/Chapter_03/03_10/finished_files/_css/main.css",
+		"/Users/ruffin/Desktop/Lynda/CSS_Page_Layout/Exercise Files/Chapter_03/03_10/finished_files/index.htm",
+		"/Users/ruffin/Desktop/Lynda/CSS_Page_Layout/Exercise Files/Chapter_03/03_06/2col_v1.htm",
+		"/Users/ruffin/Desktop/Lynda/CSS_Page_Layout/Exercise Files/Chapter_03/03_10/_css/main.css",
+		"/Users/ruffin/Desktop/portfolio/toplist/index.html",
+		"/Users/ruffin/Desktop/Lynda/CSS_Page_Layout/Exercise Files/Chapter_03/03_10/index.htm",
+		"/Users/ruffin/Desktop/Project-Part-1-Start/Gruntfile.js",
+		"/Users/ruffin/Desktop/Lynda/CSS_Page_Layout/Exercise Files/Chapter_04/04_01/relative.htm",
+		"/Users/ruffin/Desktop/Project-Part-1-Start/index.html",
+		"/Users/ruffin/Desktop/Project-Part-1-Start 2/package.json",
+		"/Users/ruffin/Desktop/Project-Part-1-Start 2/css/main.css",
+		"/Users/ruffin/Desktop/Project-Part-1-Start 2/Gruntfile.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"result",
+			"wait",
+			"console",
+			"inside",
+			"console",
+			"Your code goes here"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 1330,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								674,
+								674
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 336.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/style.css",
+					"settings":
+					{
+						"buffer_size": 3426,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								89,
+								89
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 742.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 254.0,
+	"status_bar_visible": true
+}

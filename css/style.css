@@ -1,0 +1,210 @@
+body {
+
+	font-family: 'Lato', sans-serif;
+	color: #676858;
+	font-weight: 300;
+}
+
+html {
+
+}
+
+h1,h2, h3, h4, p, ul, li{
+	margin: 0;
+	padding:0;
+}
+
+#container {
+	display: flex;
+	flex-wrap: wrap;
+	border-bottom: 1px solid #676858;
+	margin-bottom: 15px;
+	padding: 10px;
+
+	background-image: #ffffff; /* Old browsers */
+	background-image: -moz-linear-gradient(-45deg,  #ffffff 22%, #ffffff 70%, #871b85 100%); /* FF3.6+ */
+	background-image: -webkit-gradient(linear, left top, right bottom, color-stop(22%,#ffffff), color-stop(70%,#ffffff), color-stop(100%,#871b85)); /* Chrome,Safari4+ */
+	background-image: -webkit-linear-gradient(-45deg,  #ffffff 22%,#ffffff 70%,#871b85 100%); /* Chrome10+,Safari5.1+ */
+	background-image: -o-linear-gradient(-45deg,  #ffffff 22%,#ffffff 70%,#871b85 100%); /* Opera 11.10+ */
+	background-image: -ms-linear-gradient(-45deg,  #ffffff 22%,#ffffff 70%,#871b85 100%); /* IE10+ */
+	background-image: linear-gradient(155deg,  #ffffff 32%,#ffffff 50%,#871b85 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#871b85',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    background-position: right bottom;
+    background-repeat: no-repeat;
+
+}
+
+#logo{
+	width: 100%;
+	text-align: center;
+
+}
+
+#logo img {
+	max-width: 125px;
+	max-height: 125px;
+}
+
+div#title {
+	width: 100%;
+	margin-top: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+div#title h1 {
+	margin: 5px 0;
+	font-weight: 200;
+}
+
+
+#banner img {
+	width: 100%;
+}
+
+#featureWork{
+	margin: 20px 0 10px 0;
+	text-align: center;
+}
+
+main{
+	background-image: #ffffff; /* Old browsers */
+	background-image: -moz-linear-gradient(-45deg,  #ffffff 22%, #ffffff 70%, #871b85 100%); /* FF3.6+ */
+	background-image: -webkit-gradient(linear, left top, right bottom, color-stop(22%,#ffffff), color-stop(70%,#ffffff), color-stop(100%,#871b85)); /* Chrome,Safari4+ */
+	background-image: -webkit-linear-gradient(-45deg,  #ffffff 22%,#ffffff 70%,#871b85 100%); /* Chrome10+,Safari5.1+ */
+	background-image: -o-linear-gradient(-45deg,  #ffffff 22%,#ffffff 70%,#871b85 100%); /* Opera 11.10+ */
+	background-image: -ms-linear-gradient(-45deg,  #ffffff 22%,#ffffff 70%,#871b85 100%); /* IE10+ */
+	background-image: linear-gradient(195deg,  #ffffff 22%,#ffffff 65%,#871b85 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#871b85',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	padding-bottom: 5px;
+
+}
+
+
+#gallery{
+	text-align: center;
+}
+
+#gallery img{
+	width: 80%;
+	 border-radius: 5px;
+	 border: 1px solid  #DCDCDC;
+}
+#gallery h3{
+	text-transform: uppercase;
+}
+#gallery p{
+	font-size: 0.8em;
+	margin-bottom: 30px;
+}
+
+picture{
+	margin: 100px 0;
+}
+
+section picture:nth-child(3n+3){
+	margin-right: 0;
+}
+
+footer{
+	margin-top: 25px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid
+}
+
+footer>h2{
+	padding-bottom: 15px;
+}
+
+footer>ul{
+	margin-left: 25px;
+	list-style: none;
+}
+
+
+
+
+
+.black-text{
+	font-family: "Roboto", sans-serif;
+	font-weight: 900;
+	font-size: 18px;
+	color: #871b85;
+	padding-right: 10px;
+}
+
+.white-text{
+	font-size: 16px;
+}
+
+@media screen and (min-width:550px){
+	#logo {
+		width: 50%;
+		text-align: left;
+	}
+
+	div#title {
+		width: 50%;
+		text-align: right;
+	}
+
+	#featureWork{
+		margin: 20px 0 ;
+		text-align: left;
+	}
+
+	#gallery{
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	picture{
+		margin: 0 0 30px 0;
+		width: 50%;
+	}
+
+	#gallery img{
+		width: 80%;
+
+	}
+
+	ul#contacts{
+		display: -webkit-flex;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+}
+
+@media screen and (min-width:800px){
+	body{
+		width: 800px;
+		margin: 0 auto;
+	}
+
+	main{
+		padding-bottom: 0px;
+	}
+
+	#featureWork{
+		margin: 20px 0 ;
+		text-align: left;
+	}
+
+	#gallery{
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	picture{
+		margin-right: 16px;
+		width: 32%;
+	}
+
+	#gallery img{
+		width: 100%;
+	}
+}
+
+
