@@ -1,0 +1,38 @@
+			body{	
+				/*background:#5d9ab2;*/
+				margin: 0; 
+				left:0 px;
+				right: 0 px;
+				top:0;
+		
+			}
+			
+			#canvas{
+				border:3px solid gray;
+				margin: 1% 0 ;
+				padding: 0;
+				}
+			
+						
+			/* Menu selector */
+			#mainMenu{
+				background-color: #649A9C;
+				height: 43px;
+				font-size: 80%;
+				text-align: center;
+				border:3px solid gray;
+			}
+						
+			#mainMenu ul {
+				list-style: none;
+				margin: 0 0 0 47%;
+				padding: 0;
+			}
+            
+			#mainMenu li {
+				float: left;
+				margin: 1% 0 ;
+				padding: 0;
+			}
+            
+			

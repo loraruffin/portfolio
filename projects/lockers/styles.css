@@ -1,0 +1,16 @@
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #676858;
+    font-weight: 300;
+    background-color: teal;
+}
+
+
+
+
+#container{
+    margin: 0 auto;
+    width: 800px;
+
+}

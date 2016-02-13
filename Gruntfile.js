@@ -17,16 +17,13 @@ module.exports = function(grunt) {
             width: 300,
             height: 200,
             aspectRatio: false,
-           // gravity: north,
             rename: false
-            /*
-            Change these:
+             },{
 
-            width: ,
-            suffix: ,
-            quality:
-            */
-          }]
+            width: 800,
+            name: 'large'
+             }
+             ]
         },
 
         /*
