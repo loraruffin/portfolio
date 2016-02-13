@@ -6,10 +6,14 @@
 	<meta name=”viewport” content=”width=device-width, initial-scale=1”>
 	<title>Lora Ruffin</title>
 	<link href='https://fonts.googleapis.com/css?family=Lato:200,300' rel='stylesheet' type='text/css'>
+
+
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 </head>
-
-
 <body>
 	<header id="container">
 		<div id="logo">
@@ -20,60 +24,194 @@
 			<h4> Front-End Developer </h4>
 		</div>
 	</header>
-
 	<article id="banner">
 		<img src="http://placekitten.com/960/300" alt="banner">
-    </article>
+	</article>
 	<main>
 		<h2 id="featureWork">Feature Work</h2>
 
 		<section id="gallery" >
-            <picture class="projectImage">
-                <img src="images/as2.PNG"  alt="" >
-                <h3>AtomicSpectroscopy</h3>
-                <p> <a href="projects/AtomicSpectroscopy/index.html">simulation</a></p>
-            </picture>
-
-            <picture class="projectImage">
-                <img src="images/db2.PNG"  alt="" >
-                <h3>3D Animation</h3>
-                <p><a href="https://www.youtube.com/watch?v=KLoCe0KJSuk">https://www.youtube.com</a></p>
-            </picture>
-            <picture class="projectImage">
-                <img src="images/d2.png"  alt="" >
-                <h3>Project 1</h3>
-                <p> http://github.com </p>
-            </picture>
-
-			<picture class="projectImage">
-				<img src="images/g2.PNG"  alt="" >
-				<h3>Maze Game</h3>
-				<p><a href="http://localhost:8000/">mouse game</a></p>
+			<picture >
+				<img class="projectImage"src="images/atomic_2.PNG"  alt="Atomic Spectroscopy Project Image" data-toggle="modal" data-target="#atomic" >
+				<h3>Atomic Spectroscopy</h3>
+ 				<p> <a href="projects/AtomicSpectroscopy/index.html" target="_blank">Atomic Spectroscopy</a></p>
 			</picture>
-            <picture class="projectImage">
-                <img src="images/cat1.png"  alt="" >
-                <h3>Project 2</h3>
-                <p> http://github.com </p>
-            </picture>
-
-            <picture class="projectImage">
-                <img src="images/p2.png"  alt="" >
-                <h3>3D Animation</h3>
-                <p><a href="https://www.youtube.com/watch?v=KLoCe0KJSuk">https://www.youtube.com</a></p>
-            </picture>
-
-
-
-
+			<picture >
+				<img class="projectImage"src="images/lockers_2.PNG"  alt="Data Base Project" data-toggle="modal" data-target="#lockers" >
+				<h3>Locker Database</h3>
+				<p><a href="projects/lockers/index.html" target="_blank">Locker Database</a></p>
+			</picture>
+			<picture >
+				<img class="projectImage"src="images/manual_2.png"  alt="Demo Manual" data-toggle="modal" data-target="#demo"   >
+				<h3>Demo Manual</h3>
+				<p><a href="https://chem.colorado.edu/genchemdemo" target="_blank">https://chem.colorado.edu/genchemdemo/</a></p>
+			</picture>
+			<picture >
+				<img class="projectImage" src="images/maze_2.PNG"  alt="Maze Game" data-toggle="modal" data-target="#maze">
+				<h3>Maze Game</h3>
+				<p><a href="projects/mouse/index.html" target="_blank">Maze Game</a></p>
+			</picture>
+			<picture>
+				<img class="projectImage"src="images/cat_1.png"  alt="Cat Animation" data-toggle="modal" data-target="#cat" >
+				<h3>3D Animation</h3>
+				<p><a href="https://www.youtube.com/watch?v=KLoCe0KJSuk" target="_blank">https://www.youtube.com</a></p>
+			</picture>
+			<picture >
+				<img class="projectImage"src="images/particles_1.png"  alt="Particles"data-toggle="modal" data-target="#particles"  >
+				<h3>Particles</h3>
+				<p><a href="projects/particles/index.html" target="_blank">3D Particles</a></p>
+			</picture>
+			<picture >
+				<img class="projectImage"src="images/frogger.png"  alt="Frogger Game" data-toggle="modal" data-target="#frogger" >
+				<h3>Frogger Game</h3>
+				<p><a href="projects/frogger/index.html" target="_blank">Frogger Game</a></p>
+			</picture>
 		</section>
 	</main>
-    <footer>
-        <h2>Contacts</h2>
-        <ul id="contacts">
-                <li><span class="black-text">mobile</span><span class="white-text">303 478 9491</span></li>
-                <li><span class="black-text">email</span><span class="white-text">lora.ruffin@colorado.edu</span></li>
-                <li><span class="black-text">location</span><span class="white-text">Denver,CO</span></li>
-            </ul>
-    </footer>
+	<footer>
+		<h2>Contacts</h2>
+		<ul id="contacts">
+			<li><span class="black-text">mobile</span><span class="white-text">303 478 9491</span></li>
+			<li><span class="black-text">email</span><span class="white-text">lora.ruffin@colorado.edu</span></li>
+			<li><span class="black-text">location</span><span class="white-text">Denver,CO</span></li>
+		</ul>
+	</footer>
+
+
+		<!-- Modals -->
+		<!--Atomic Spectroscopy-->
+	<div class="modal fade " id="atomic" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="myModalLabel">Atomic Spectroscopy Simulation</h4>
+				</div>
+		 		<div class="modal-body">
+					<img class="img-responsive" src="images/atomic_2-large.PNG">
+					<p>This application is used in the chemistry laboratory as a teaching tool. During lab the students often move the spectroscopes and get them out of focus. Students do not know what they should be seeing and therefore they may collect the wrong data. This application helps students visualize the spectrum of Helium and Hydrogen and prevents students from collecting the wrong data.</p>
+					 <p> <a href="projects/AtomicSpectroscopy/index.html" target="_blank">Atomic Spectroscopy</a></p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--Lockers Database-->
+	<div class="modal fade " id="lockers" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="myModalLabel">Lockers Database</h4>
+				</div>
+		 		<div class="modal-body">
+					<img class="img-responsive" src="images/lockers_1-large.PNG">
+					<p>Database system that helps the CHemistry Department manage their lockers. The System assigns lockers to students, assign Teaching Assistants to rooms, provides information about locker combinations and contact information.
+					The application was developed using HTML, CSS, Java Script, Ajax, PHP, and MySQL. The application is only available on the University of Colorado intra-net.</p>
+					<p><a href="projects/lockers/index.html" target="_blank">Locker Database</a></p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--Demo Manual-->
+	<div class="modal fade " id="demo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="myModalLabel">Demo Manual</h4>
+				</div>
+		 		<div class="modal-body">
+					<img class="img-responsive" src="images/manual_3-large.png">
+					<p>This is a catalog of all the chemistry demonstration that the Chemistry Department offers.The application was developed with Joomla.</p>
+					<p><a href="https://chem.colorado.edu/genchemdemo" target="_blank">https://chem.colorado.edu/genchemdemo/</a></p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--Maze Game-->
+	<div class="modal fade " id="maze" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="myModalLabel">3D Mame Game</h4>
+				</div>
+		 		<div class="modal-body">
+					<img class="img-responsive" src="images/maze_1-large.PNG">
+					<p>This is a 3D Maze Game developed with HTML, Java Script, WebGL with Three.js for the graphics, and Box2D.js for the collision detection.</p>
+					<p><a href="projects/mouse/index.html" target="_blank">Maze Game</a></p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--Animation-->
+	<div class="modal fade " id="cat" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="myModalLabel">3D Mame Game</h4>
+				</div>
+		 		<div class="modal-body">
+					<img class="img-responsive" src="images/cat_2-large.png">
+					<p>This is a 3D animation project developed with Maya.The video was created with iMovie. The movie is a a video clip of a popular Bulgarian song 'Cat reads books'. The cat reads books on how to catch a mouse.</p>
+					<p><a href="https://www.youtube.com/watch?v=KLoCe0KJSuk" target="_blank">https://www.youtube.com</a></p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--Particles-->
+	<div class="modal fade " id="particles" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="myModalLabel">particles</h4>
+				</div>
+		 		<div class="modal-body">
+					<img class="img-responsive" src="images/particles_4-large.png">
+					<p>This is a 3D particles simulation develop with HTML, Java Script, WebGL, and Three.js.</p>
+					<p><a href="projects/particles/index.html" target="_blank">3D Particles</a></p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+		<!--Frogger-->
+	<div class="modal fade " id="frogger" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="myModalLabel">Frogger Game</h4>
+				</div>
+		 		<div class="modal-body">
+					<img class="img-responsive" src="images/frogger-large.png">
+					<p>This is a 2D game representation of the popular Frogger Game. The game was developed using HTML, Css, and Java Script.</p>
+					<p><a href="projects/frogger/index.html" target="_blank">Frogger Game</a></p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
 </body>
 </html>
