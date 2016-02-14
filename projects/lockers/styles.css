@@ -3,7 +3,8 @@ body {
     font-family: 'Lato', sans-serif;
     color: #676858;
     font-weight: 300;
-    background-color: teal;
+    background-color: #CCFFFF;
+
 }
 
 
@@ -12,5 +13,42 @@ body {
 #container{
     margin: 0 auto;
     width: 800px;
+    background-color: #E8E8E8 ;
 
+}
+
+img{
+    border-radius: 5px;
+    border: 1px solid #676858;
+}
+
+main{
+    padding: 0 30px;
+    height: 600px;
+}
+
+div#p1{
+    padding-bottom: 30px;
+}
+
+div#p1 p{
+    width: 50%;
+    float: left;
+}
+
+div#p1 img{
+    float: right;
+}
+
+.clearfix{
+    overflow: auto;
+}
+
+div#p2 p{
+    width: 50%;
+    float: right;
+}
+
+div#p2 img{
+    float: left;
 }
